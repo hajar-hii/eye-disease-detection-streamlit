@@ -1,0 +1,29 @@
+# Environments and IDE
+venv/
+.vscode/
+.env
+
+# Large Folders
+dataset/
+dataset_split/
+sc_assignment/
+
+# Archives and Large Files
+*.zip
+*.tar.gz
+
+# System and Metadata
+*.Identifier
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Extra Models (Keep only the one you need for the app)
+# If you only want to keep 'eye_disease_vgg16.h5', ignore the others:
+eye_cnn_from_scratch.h5
+eye_cnn_from_scratch.keras
+eye_disease_vgg16.h5
+
+
+
+
