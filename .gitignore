@@ -27,3 +27,20 @@ eye_disease_vgg16.h5
 
 
 
+# --- Streamlit and App Cache ---
+.streamlit/
+static/
+app_data/
+*.log
+
+# --- Python Training Outputs ---
+# We keep the .keras model, but ignore the history file if it's too large
+Training_history.pkl
+
+# --- Byte-compiled / optimized / DLL files ---
+*.py[cod]
+*$py.class
+
+# --- OS generated files ---
+Thumbs.db
+db.lock
